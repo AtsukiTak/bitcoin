@@ -591,7 +591,7 @@ void ArgsManager::AddHiddenArgs(const std::vector<std::string>& names)
     }
 }
 
-std::string ArgsManager::GetHelpMessage()
+std::string ArgsManager::GetHelpMessage() const
 {
     const bool show_debug = gArgs.GetBoolArg("-help-debug", false);
 

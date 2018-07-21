@@ -276,7 +276,7 @@ public:
     /**
      * Get the help string
      */
-    std::string GetHelpMessage();
+    std::string GetHelpMessage() const;
 
     /**
      * Check whether we know of this arg
