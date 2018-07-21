@@ -281,7 +281,7 @@ public:
     /**
      * Check whether we know of this arg
      */
-    bool IsArgKnown(const std::string& key, std::string& error);
+    bool IsArgKnown(const std::string& key, std::string& error) const;
 };
 
 extern ArgsManager gArgs;

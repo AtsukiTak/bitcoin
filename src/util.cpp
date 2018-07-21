@@ -466,7 +466,7 @@ bool ArgsManager::ParseParameters(int argc, const char* const argv[], std::strin
     return true;
 }
 
-bool ArgsManager::IsArgKnown(const std::string& key, std::string& error)
+bool ArgsManager::IsArgKnown(const std::string& key, std::string& error) const
 {
     size_t option_index = key.find('.');
     std::string arg_no_net;
